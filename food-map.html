@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美食时令地图 - 西安文化</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">西安·长兴坊</div>
+                <ul>
+                    <li><a href="index.html">历史背景</a></li>
+                    <li><a href="activities.html">民俗活动</a></li>
+                    <li><a href="travel.html">旅游指南</a></li>
+                    <li><a href="food-map.html">美食时令地图</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: url('images/xian_traditional_food_1770220321913.png')">
+            <div class="hero-content">
+                <h1>美食时令地图</h1>
+                <p>应季而食，顺时而动，品味长安四季滋味</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="section-title">
+                <h2>四季食单</h2>
+            </div>
+            <div class="season-tabs">
+                <button class="season-tab active" data-season="spring">
+                    <span class="season-icon">🌸</span>
+                    <span class="season-name">春季</span>
+                    <span class="season-sub">三月-五月</span>
+                </button>
+                <button class="season-tab" data-season="summer">
+                    <span class="season-icon">☀️</span>
+                    <span class="season-name">夏季</span>
+                    <span class="season-sub">六月-八月</span>
+                </button>
+                <button class="season-tab" data-season="autumn">
+                    <span class="season-icon">🍂</span>
+                    <span class="season-name">秋季</span>
+                    <span class="season-sub">九月-十一月</span>
+                </button>
+                <button class="season-tab" data-season="winter">
+                    <span class="season-icon">❄️</span>
+                    <span class="season-name">冬季</span>
+                    <span class="season-sub">十二月-二月</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="container season-content" id="spring">
+            <div class="map-section">
+                <div class="map-container">
+                    <div class="map-illustration">
+                        <div class="map-title">西安美食地理</div>
+                        <div class="map-area">
+                            <div class="map-point" style="top: 30%; left: 25%;">
+                                <span class="map-dot"></span>
+                                <span class="map-label">回民街</span>
+                            </div>
+                            <div class="map-point" style="top: 45%; left: 60%;">
+                                <span class="map-dot"></span>
+                                <span class="map-label">永兴坊</span>
+                            </div>
+                            <div class="map-point" style="top: 20%; left: 70%;">
+                                <span class="map-dot"></span>
+                                <span class="map-label">洒金桥</span>
+                            </div>
+                            <div class="map-point" style="top: 65%; left: 35%;">
+                                <span class="map-dot"></span>
+                                <span class="map-label">小南门</span>
+                            </div>
+                            <div class="map-point" style="top: 55%; left: 80%;">
+                                <span class="map-dot"></span>
+                                <span class="map-label">东新街</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-legend">
+                    <h3>美食街区指南</h3>
+                    <div class="legend-item">
+                        <span class="legend-marker"></span>
+                        <div>
+                            <strong>回民街</strong>
+                            <p>北院门、北广济街、西羊市一带，西安最负盛名的美食聚集地</p>
+                        </div>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-marker"></span>
+                        <div>
+                            <strong>永兴坊</strong>
+                            <p>汇集陕西各地特色小吃，非遗美食体验街区</p>
+                        </div>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-marker"></span>
+                        <div>
+                            <strong>洒金桥</strong>
+                            <p>本地人私藏的美食街，老字号云集</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container season-content" id="spring">
+            <div class="section-title">
+                <h2>春季时令美食</h2>
+            </div>
+            <div class="food-grid">
+                <div class="food-card">
+                    <div class="food-header">
+                        <h3>春卷</h3>
+                        <span class="food-tag">立春必食</span>
+                    </div>
+                    <div class="food-details">
+                        <div class="detail-item">
+                            <span class="detail-label">主要食材</span>
+                            <span class="detail-value">春饼皮、豆芽、韭菜、鸡蛋、肉丝、胡萝卜</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">口味特点</span>
+                            <span class="detail-value">咸鲜清爽，外皮酥脆，内馅丰富</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">适合时间</span>
+                            <span class="detail-value">立春前后至清明期间</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">民俗渊源</span>
+                            <span class="detail-value">立春咬春，寓意迎接新春，祈求五谷丰登。古人有"春日春盘细生菜"的诗句，春卷由春盘演变而来，象征万物复苏。</span>
+                        </div>
+                    </div>
+                    <div class="food-tip">
+                        <strong>旅游提示：</strong>回民街各家店铺均有售卖，建议早间前往，新鲜出炉口感最佳。排队约10-15分钟，营业时间6:00-21:00。
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <div class="food-header">
+                        <h3>荠菜饺子</h3>
+                        <span class="food-tag">清明时节</span>
+                    </div>
+                    <div class="food-details">
+                        <div class="detail-item">
+                            <span class="detail-label">主要食材</span>
+                            <span class="detail-value">野生荠菜、猪肉馅、面粉、姜末、葱花</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">口味特点</span>
+                            <span class="detail-value">清香鲜美，荠菜独特的田野清香与肉馅完美融合</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">适合时间</span>
+                            <span class="detail-value">三月至四月初，荠菜最鲜嫩的时期</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">民俗渊源</span>
+                            <span class="detail-value">三月三，荠菜赛灵丹。古时清明前后，人们到郊外挖野菜包饺子，既是尝鲜也是踏青活动的一部分，寓意祛病强身。</span>
+                        </div>
+                    </div>
+                    <div class="food-tip">
+                        <strong>旅游提示：</strong>推荐前往洒金桥老字号饺子馆，限量供应，建议中午前到店。排队约20-30分钟，营业时间7:00-20:00。
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <div class="food-header">
+                        <h3>凉皮</h3>
+                        <span class="food-tag">开春解馋</span>
+                    </div>
+                    <div class="food-details">
+                        <div class="detail-item">
+                            <span class="detail-label">主要食材</span>
+                            <span class="detail-value">小麦面粉、黄瓜丝、豆芽、醋、辣椒油、芝麻酱、蒜水</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">口味特点</span>
+                            <span class="detail-value">酸辣爽口，凉皮筋道，调料浓郁开胃</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">适合时间</span>
+                            <span class="detail-value">春季转暖时开始食用，可延续至夏季</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">民俗渊源</span>
+                            <span class="detail-value">相传秦始皇时期就有凉皮，古称"冷淘面"。春季阳气生发，食用凉食可以清热解暑，是关中地区开春的标志性美食。</span>
+                        </div>
+                    </div>
+                    <div class="food-tip">
+                        <strong>旅游提示：</strong>回民街、小南门都有多家名店，高峰时段（中午12:00-13:30）需排队15-30分钟，大多营业至晚上10点。
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title" style="margin-top: 3rem;">
+                <h2>春季集市与街区</h2>
+            </div>
+            <div class="market-grid">
+                <div class="market-card">
+                    <h3>西羊市早市</h3>
+                    <div class="market-info">
+                        <p><strong>特色：</strong>传统回民早市，早点种类丰富，烟火气十足</p>
+                        <p><strong>时间：</strong>每日清晨5:00-9:30</p>
+                        <p><strong>推荐：</strong>糊辣汤、水煎包、甑糕、豆浆油条</p>
+                        <p><strong>排队提示：</strong>热门摊位约排队15-20分钟，建议7点前到达</p>
+                    </div>
+                </div>
+                <div class="market-card">
+                    <h3>小南门便民市场</h3>
+                    <div class="market-info">
+                        <p><strong>特色：</strong>城墙根下的便民菜市场，周边小吃店林立</p>
+                        <p><strong>时间：</strong>6:00-12:00（早市最热闹）</p>
+                        <p><strong>推荐：</strong>各种时令野菜、本地草莓、灌汤包子</p>
+                        <p><strong>排队提示：</strong>包子铺排队约20分钟，可错开高峰</p>
+                    </div>
+                </div>
+                <div class="market-card">
+                    <h3>曲江池庙会</h3>
+                    <div class="market-info">
+                        <p><strong>特色：</strong>春季庙会，民俗表演与特色小吃结合</p>
+                        <p><strong>时间：</strong>清明前后（农历三月初三前后）</p>
+                        <p><strong>推荐：</strong>各种传统小吃、手工艺品、糖画</p>
+                        <p><strong>排队提示：</strong>庙会人流量大，热门小吃需排队30分钟以上</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container season-content" id="summer" style="display: none;">
+            <div class="section-title">
+                <h2>夏季时令美食</h2>
+            </div>
+            <div class="food-grid">
+                <div class="food-card">
+                    <div class="food-header">
+                        <h3>浆水鱼鱼</h3>
+                        <span class="food-tag">消暑圣品</span>
+                    </div>
+                    <div class="food-details">
+                        <div class="detail-item">
+                            <span class="detail-label">主要食材</span>
+                            <span class="detail-value">玉米淀粉、浆水（发酵的芹菜或白菜水）、韭菜、辣椒油、蒜</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">口味特点</span>
+                            <span class="detail-value">酸香清爽，滑嫩可口，消暑开胃</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">适合时间</span>
+                            <span class="detail-value">三伏天最宜食用，六月至八月</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">民俗渊源</span>
+                            <span class="detail-value">浆水是秦人古老的发酵食品，相传始于秦汉。夏季炎热，浆水的酸性能生津止渴，鱼鱼的形状寓意年年有余。</span>
+                        </div>
+                    </div>
+                    <div class="food-tip">
+                        <strong>旅游提示：</strong>东新街夜市和居民区内的小店最为正宗，建议傍晚前往。排队约10分钟，营业时间17:00-23:00。
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <div class="food-header">
+                        <h3>三皮丝</h3>
+                        <span class="food-tag">下酒凉菜</span>
+                    </div>
+                    <div class="food-details">
+                        <div class="detail-item">
+                            <span class="detail-label">主要食材</span>
+                            <span class="detail-value">猪皮、鸡皮、海蜇皮、芝麻酱、花椒油、红油</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">口味特点</span>
+                            <span class="detail-value">脆嫩筋道，麻辣鲜香，口感层次丰富</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">适合时间</span>
+                            <span class="detail-value">夏季凉菜，配啤酒或白酒最佳</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">民俗渊源</span>
+                            <span class="detail-value">三皮丝是唐代宫廷名菜，原名"羊皮花丝"，后传入民间。因三种皮切成细丝堆叠得名，象征夏日多彩的生活。</span>
+                        </div>
+                    </div>
+                    <div class="food-tip">
+                        <strong>旅游提示：</strong>回民街的老字号餐馆均有供应，建议作为正餐凉菜点单。无需长时间排队，营业时间10:00-22:00。
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <div class="food-header">
+                        <h3>蜂蜜凉粽</h3>
+                        <span class="food-tag">端午食俗</span>
+                    </div>
+                    <div class="food-details">
+                        <div class="detail-item">
+                            <span class="detail-label">主要食材</span>
+                            <span class="detail-value">糯米、红枣、蜂蜜、桂花糖浆</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">口味特点</span>
+                            <span class="detail-value">软糯香甜，蜂蜜桂花香气浓郁，冰凉解暑</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">适合时间</span>
+                            <span class="detail-value">端午节前后，整个夏季均可食用</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">民俗渊源</span>
+                            <span class="detail-value">端午节食粽纪念屈原，而凉粽是关中地区的特色吃法。夏季食用凉粽，有驱邪消暑、祈求安康的寓意。</span>
+                        </div>
+                    </div>
+                    <div class="food-tip">
+                        <strong>旅游提示：</strong>回坊随处可见推车售卖，推荐竹笆市的老马家蜂蜜凉粽。排队约5-10分钟，全天供应。
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title" style="margin-top: 3rem;">
+                <h2>夏季夜市与街区</h2>
+            </div>
+            <div class="market-grid">
+                <div class="market-card">
+                    <h3>东新街夜市</h3>
+                    <div class="market-info">
+                        <p><strong>特色：</strong>西安最著名的夜市之一，汇集各地风味小吃</p>
+                        <p><strong>时间：</strong>每日17:00-凌晨2:00</p>
+                        <p><strong>推荐：</strong>烤串、炒虾尾、涮牛肚、砂锅、各种消暑饮品</p>
+                        <p><strong>排队提示：</strong>热门摊位约排队20-40分钟，21点后人流减少</p>
+                    </div>
+                </div>
+                <div class="market-card">
+                    <h3>大唐不夜城步行街</h3>
+                    <div class="market-info">
+                        <p><strong>特色：</strong>仿古步行街，夜景璀璨，美食与演艺结合</p>
+                        <p><strong>时间：</strong>全天开放，夜间最热闹</p>
+                        <p><strong>推荐：</strong>各种网红小吃、饮品、文创冰淇淋</p>
+                        <p><strong>排队提示：</strong>周末及节假日人多，热门美食需排队30分钟以上</p>
+                    </div>
+                </div>
+                <div class="market-card">
+                    <h3>小南门夜市</h3>
+                    <div class="market-info">
+                        <p><strong>特色：</strong>城墙脚下的平民夜市，价格实惠，本地人多</p>
+                        <p><strong>时间：</strong>18:00-23:30</p>
+                        <p><strong>推荐：</strong>烤肉、炒面、卤味、酸梅汤</p>
+                        <p><strong>排队提示：</strong>大部分摊位无需久等，烤串摊约10-15分钟</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container season-content" id="autumn" style="display: none;">
+            <div class="section-title">
+                <h2>秋季时令美食</h2>
+            </div>
+            <div class="food-grid">
+                <div class="food-card">
+                    <div class="food-header">
+                        <h3>肉夹馍</h3>
+                        <span class="food-tag">贴秋膘</span>
+                    </div>
+                    <div class="food-details">
+                        <div class="detail-item">
+                            <span class="detail-label">主要食材</span>
+                            <span class="detail-value">白吉馍、腊汁肉（五花肉）、八角、桂皮、丁香、草果等二十余种香料</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">口味特点</span>
+                            <span class="detail-value">馍脆肉香，肥而不腻，瘦而不柴，入口即化</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">适合时间</span>
+                            <span class="detail-value">立秋后开始进补，整个秋冬季节皆宜</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">民俗渊源</span>
+                            <span class="detail-value">"肉夹馍"意为"肉夹于馍中"，源自战国时期的"寒肉"。立秋贴秋膘是北方传统习俗，吃肉夹馍寓意丰收富足，为过冬储备能量。</span>
+                        </div>
+                    </div>
+                    <div class="food-tip">
+                        <strong>旅游提示：</strong>推荐樊记、秦豫肉夹馍等老字号。早高峰约排队20-30分钟，营业时间6:30-21:00。
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <div class="food-header">
+                        <h3>羊肉泡馍</h3>
+                        <span class="food-tag">重阳进补</span>
+                    </div>
+                    <div class="food-details">
+                        <div class="detail-item">
+                            <span class="detail-label">主要食材</span>
+                            <span class="detail-value">羊肉、饦饦馍、粉丝、葱花、香菜、辣酱、糖蒜</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">口味特点</span>
+                            <span class="detail-value">汤鲜肉烂，馍筋入味，香气四溢，暖胃滋补</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">适合时间</span>
+                            <span class="detail-value">秋凉后至次年春季，重阳节气食用最佳</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">民俗渊源</span>
+                            <span class="detail-value">相传为宋代军队的干粮演变而来。秋季食用羊肉有温补功效，重阳节吃泡馍是关中地区的传统，寓意健康长寿。</span>
+                        </div>
+                    </div>
+                    <div class="food-tip">
+                        <strong>旅游提示：</strong>同盛祥、老孙家等百年老店最正宗。掰馍需15-20分钟，高峰期等位30-60分钟，建议早到。
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <div class="food-header">
+                        <h3>柿子饼</h3>
+                        <span class="food-tag">金秋特产</span>
+                    </div>
+                    <div class="food-details">
+                        <div class="detail-item">
+                            <span class="detail-label">主要食材</span>
+                            <span class="detail-value">临潼火晶柿子、面粉、糯米粉、豆沙、核桃仁、桂花</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">口味特点</span>
+                            <span class="detail-value">外酥里糯，甜而不腻，柿子清香与桂花香融合</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">适合时间</span>
+                            <span class="detail-value">九月至十一月，柿子成熟的季节</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">民俗渊源</span>
+                            <span class="detail-value">临潼火晶柿子是西安特产，已有千年栽培历史。柿子饼因形似满月，又名"柿柿如意"，秋日食之寓意事事如意。</span>
+                        </div>
+                    </div>
+                    <div class="food-tip">
+                        <strong>旅游提示：</strong>回民街的柿子饼摊位现做现卖，推荐黄桂柿子饼。排队约10-20分钟，营业时间8:00-22:00。
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title" style="margin-top: 3rem;">
+                <h2>秋季集市与街区</h2>
+            </div>
+            <div class="market-grid">
+                <div class="market-card">
+                    <h3>永兴坊</h3>
+                    <div class="market-info">
+                        <p><strong>特色：</strong>陕西非遗美食街区，汇集全省各地特色小吃</p>
+                        <p><strong>时间：</strong>10:00-22:00</p>
+                        <p><strong>推荐：</strong>子长煎饼、绥德油旋、汉中热米皮、biangbiang面</p>
+                        <p><strong>排队提示：</strong>热门小吃约排队15-30分钟，建议错峰前往</p>
+                    </div>
+                </div>
+                <div class="market-card">
+                    <h3>洒金桥美食街</h3>
+                    <div class="market-info">
+                        <p><strong>特色：</strong>本地人的美食天堂，老字号多，价格实惠</p>
+                        <p><strong>时间：</strong>早市5:30-10:00，正餐10:00-21:00</p>
+                        <p><strong>推荐：</strong>马二酸汤水饺、老金家蛋菜夹馍、刘信牛羊肉泡馍</p>
+                        <p><strong>排队提示：</strong>早餐时段热门摊排队20-30分钟，下午人少</p>
+                    </div>
+                </div>
+                <div class="market-card">
+                    <h3>大唐西市庙会</h3>
+                    <div class="market-info">
+                        <p><strong>特色：</strong>秋季文化庙会，重现盛唐西市繁荣景象</p>
+                        <p><strong>时间：</strong>国庆前后（农历九月）</p>
+                        <p><strong>推荐：</strong>各种传统小吃、手工艺品、民俗表演</p>
+                        <p><strong>排队提示：</strong>节假日人流量大，热门美食需排队30分钟以上</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container season-content" id="winter" style="display: none;">
+            <div class="section-title">
+                <h2">冬季时令美食</h2>
+            </div>
+            <div class="food-grid">
+                <div class="food-card">
+                    <div class="food-header">
+                        <h3>胡辣汤</h3>
+                        <span class="food-tag">冬日早餐</span>
+                    </div>
+                    <div class="food-details">
+                        <div class="detail-item">
+                            <span class="detail-label">主要食材</span>
+                            <span class="detail-value">牛肉、土豆、胡萝卜、莲花白、豆角、肉丸、胡椒粉、面筋</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">口味特点</span>
+                            <span class="detail-value">麻辣鲜香，汤汁浓稠，食材丰富，暖身驱寒</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">适合时间</span>
+                            <span class="detail-value">寒冬早晨最佳，整个冬季均可食用</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">民俗渊源</span>
+                            <span class="detail-value">胡辣汤源自明代，由宫廷药膳演变而来。冬季早晨喝一碗热胡辣汤，是西安人的生活仪式，寓意温暖过冬、驱邪避寒。</span>
+                        </div>
+                    </div>
+                    <div class="food-tip">
+                        <strong>旅游提示：</strong>推荐老李家、刘老虎等胡辣汤老店。早高峰6:30-8:30需排队15-30分钟，建议早起。
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <div class="food-header">
+                        <h3>腊汁肉揪面片</h3>
+                        <span class="food-tag">冬至暖身</span>
+                    </div>
+                    <div class="food-details">
+                        <div class="detail-item">
+                            <span class="detail-label">主要食材</span>
+                            <span class="detail-value">面粉、腊汁肉、青菜、木耳、黄花、葱花、辣椒油</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">口味特点</span>
+                            <span class="detail-value">面片筋道，腊汁香浓，汤鲜味美，暖心暖胃</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">适合时间</span>
+                            <span class="detail-value">冬至前后至整个冬季</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">民俗渊源</span>
+                            <span class="detail-value">"冬至不吃面，冻掉耳朵没人管"，冬至吃面食是北方传统。腊汁肉揪面片将腊汁肉的浓香与面片的筋道结合，是冬日进补佳品。</span>
+                        </div>
+                    </div>
+                    <div class="food-tip">
+                        <strong>旅游提示：</strong>推荐春发生、关中老碗等餐馆。午晚餐时段约排队20-30分钟，营业时间10:30-21:30。
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <div class="food-header">
+                        <h3>甑糕</h3>
+                        <span class="food-tag">年味小吃</span>
+                    </div>
+                    <div class="food-details">
+                        <div class="detail-item">
+                            <span class="detail-label">主要食材</span>
+                            <span class="detail-value">糯米、红枣、芸豆、葡萄干、蜂蜜</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">口味特点</span>
+                            <span class="detail-value">软糯香甜，枣香浓郁，热乎暖心</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">适合时间</span>
+                            <span class="detail-value">腊月至正月，过年期间最盛行</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">民俗渊源</span>
+                            <span class="detail-value">甑糕是西安传统早点，因用"甑"蒸制而得名。冬季食甑糕有"年年高"的美好寓意，是年货必备、走亲访友的馈赠佳品。</span>
+                        </div>
+                    </div>
+                    <div class="food-tip">
+                        <strong>旅游提示：</strong>东南亚甑糕、东南亚甑糕王最有名。早市排队约15-25分钟，建议7-8点前往，卖完即止。
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title" style="margin-top: 3rem;">
+                <h2>冬季暖食街区</h2>
+            </div>
+            <div class="market-grid">
+                <div class="market-card">
+                    <h3>回民街</h3>
+                    <div class="market-info">
+                        <p><strong>特色：</strong>冬日依然热闹，各种暖身美食应有尽有</p>
+                        <p><strong>时间：</strong>8:00-23:00（冬季略有缩短）</p>
+                        <p><strong>推荐：</strong>羊肉泡馍、腊牛肉夹馍、柿子饼、酸梅汤</p>
+                        <p><strong>排队提示：</strong>老字号泡馍馆需排队30-60分钟，建议错峰</p>
+                    </div>
+                </div>
+                <div class="market-card">
+                    <h3>大车家巷</h3>
+                    <div class="market-info">
+                        <p><strong>特色：</strong>面食一条街，西安本地人的深夜食堂</p>
+                        <p><strong>时间：</strong>10:00-凌晨1:00</p>
+                        <p><strong>推荐：</strong>油泼面、腊汁肉揪面片、biangbiang面</p>
+                        <p><strong>排队提示：</strong>晚餐时段约排队15-20分钟，深夜人少</p>
+                    </div>
+                </div>
+                <div class="market-card">
+                    <h3>书院门文化街</h3>
+                    <div class="market-info">
+                        <p><strong>特色：</strong>古色古香的文化街区，冬季更有韵味</p>
+                        <p><strong>时间：</strong>9:00-21:00</p>
+                        <p><strong>推荐：</strong>暖锅、涮羊肉、传统甜点、热饮</p>
+                        <p><strong>排队提示：</strong>餐厅一般无需久等，热门餐馆建议提前预约</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 西安文化推广中心 | 让世界看见长安</p>
+            <p>技术支持：Antigravity Agentic AI</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
